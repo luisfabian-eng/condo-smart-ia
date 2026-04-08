@@ -1,16 +1,7 @@
-"""
-WSGI config for mi_web project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/6.0/howto/deployment/wsgi/
-"""
-
 import os
-
 from django.core.wsgi import get_wsgi_application
 
+# Reemplaza 'mi_web' con el nombre real de tu carpeta de configuración si es distinto
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mi_web.settings')
 
 application = get_wsgi_application()
